@@ -1,0 +1,1 @@
+-isystem D:/TempProject/UnitTestUnix/extern/googletest/googlemock/include -isystem D:/TempProject/UnitTestUnix/extern/googletest/googlemock -isystem D:/TempProject/UnitTestUnix/extern/googletest/googletest/include -isystem D:/TempProject/UnitTestUnix/extern/googletest/googletest
