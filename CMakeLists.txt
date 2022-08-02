@@ -16,7 +16,8 @@ file(GLOB SOURCES "source/*.cpp")
 
 add_executable(bbServer main.cpp ${SOURCES})
 
-target_include_directories(bbServer PUBLIC "${CMAKE_CURRENT_SOURCE_DIR}/header" Threads::Threads)
+target_include_directories(bbServer PUBLIC "${CMAKE_CURRENT_SOURCE_DIR}/header")
+target_link_libraries(bbServer PUBLIC Threads::Threads)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
