@@ -10,7 +10,7 @@ target_link_libraries(mytests PRIVATE gtest) # link google test to this executab
 
 find_package (Threads)
 
-add_test(NAME mytests COMMAND ${CMAKE_CURRENT_SOURCE_DIR}/tests/mytests)
+add_test(NAME MyTests COMMAND mytests)
 
 file(GLOB SOURCES "source/*.cpp")
 
